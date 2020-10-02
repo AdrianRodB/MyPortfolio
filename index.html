@@ -7,32 +7,37 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
                         <a href="#portafolio">Portafolio</a>
                     </li>   
                     <li>
-                        <a>Proyectos</a>
+                        <a href="#contacto">Contacto</a>
                     </li>
                 </ol>
             </nav>
+            <h1 class="header_title">Hola!<br>Soy <strong>Adrian Rodriguez</strong><br>y esta es<br>mi <strong>página web</strong></h1>
         </header>
-        <section id="portafolio">
-            <h1>Portafolio</h1>
-            <h3>Mi Primer Fotomontaje</h3>
-            <p>Este es el resultado de haberme aventurado en el mundo de la fotografía y el fotomontaje.<br/>Creo que me salió genial para ser la primera vez.</p>
-            <img src="../PORTAFOLIO/images/foto_montaje1.jpg" alt="Proyecto Fotomontaje 1" width="500">
+        <section id="portafolio" class="portfolio">
+            <h2 class="portfolio_title">Portafolio</h1>
+            <article class="project">
+                <h3 class="project_title">Mi Primer Fotomontaje</h3>
+                <p class="project_description">Este es el resultado de haberme aventurado en el mundo de la fotografía y el fotomontaje.<br/>Creo que me salió genial para ser la primera vez.</p>
+                <figure class="image_box">
+                    <img class="image" src="../PORTAFOLIO/images/foto_montaje1.jpg" alt="Proyecto Fotomontaje 1" width="500">
+                </figure>
+            </article>
         </section>
         <section>
-            <h1>Contacto</h1>
-            <form action="Excel">
-                <label for="caja">¿Creamos algo juntos?</label>
-                <input type="text" placeholder="Déjame tu email" id="caja">
+            <h1 id="contacto" class="contact">Contacto</h1>
+            <form action="Excel" class="contact_form">
+                <label for="email_box" class="title_contactForm">¿Creamos algo juntos?</label>
+                <input type="text" placeholder="Déjame tu email" id="email_box">
                 <input type="button" value="Enviar">
             </form>
         </section>
-        <footer>
+        <footer class="footer">
             <p>Hecho con mucho amor.💚<br>De mi para mi.</p>
         </footer>
     </body>
