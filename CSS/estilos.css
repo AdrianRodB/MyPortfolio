@@ -1,5 +1,17 @@
+.anchor
+{
+    color: #e8ffff;
+}
+
+.menu
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #213e3b;
+    color: #e8ffff;
+}
+
 body
 {
     font-family: Helvetica;
-    background-color: rgb(124, 255, 227);
+    background-color: #a6f6f1;
 }
