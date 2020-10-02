@@ -1,17 +1,25 @@
 .anchor
 {
-    color: #e8ffff;
+    color: #eeecda;
 }
 
 .menu
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #213e3b;
-    color: #e8ffff;
+    background-color: #6a2c70;
+    color: #eeecda;
+}
+
+.footer
+{
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #6a2c70;
+    color: #eeecda;
 }
 
 body
 {
     font-family: Helvetica;
-    background-color: #a6f6f1;
+    background-color: #f08a5d;
 }
