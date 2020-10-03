@@ -1,5 +1,27 @@
 body
 {
-    font-family: Helvetica;
-    background-color: rgb(124, 255, 227);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    background-color: #ecf4f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+    font-family: "Fjalla One", "Roboto", Helvetica, sans-serif;
+    line-height: 1;
+}
+
+.header_title
+{
+    font-size: 60px;
+    line-height: 1;
+}
+
+.anchor
+{
+    text-decoration: none;
 }
