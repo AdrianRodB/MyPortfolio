@@ -15,15 +15,22 @@ h6,
     line-height: 1;
 }
 
-.header_title
+header
 {
-    font-size: 60px;
-    line-height: 1;
+    background-color: #006a71;
+    color: #ff7e67;
 }
 
 .anchor
 {
     text-decoration: none;
+    color: #ff7e67;
+}
+
+.hero
+{
+    font-size: 50px;
+    line-height: 1;
 }
 
 .project_specs
