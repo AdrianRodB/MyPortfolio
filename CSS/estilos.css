@@ -16,23 +16,30 @@ h6,
     line-height: 1;
 }
 
-.menu
+.header
 {
     background-color: #006a71;
     color: #ecf4f3;
     height: 60px;
 }
 
-.menu ol
+.header nav
 {
-    padding: 20px;
+    height: inherit;
+}
+
+.header ol
+{
+    height: inherit;
+    padding-left: 20px;
     margin: 0px;
     list-style-type: none;
     display: flex;
+    align-items: center;
     justify-content: flex-start;
 }
 
-.menu ol li
+.header ol li
 {
     margin-left: 0px;
     margin-right: 30px;
