@@ -141,7 +141,7 @@ h2
     background-color: transparent;
     border-style: solid;
     border-color: teal;
-    background-image: url('../images/sobre.png');
+    background-image: url('/images/sobre.png');
     background-size: 30px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -172,17 +172,17 @@ h2
 
 .social_link.twitter
 {
-    background-image: url('../images/social_media/svg/001-twitter.svg');
+    background-image: url('/images/social_media/svg/001-twitter.svg');
 }
 
 .social_link.instagram
 {
-    background-image: url('../images/social_media/svg/011-instagram.svg');
+    background-image: url('/images/social_media/svg/011-instagram.svg');
 }
 
 .social_link.facebook
 {
-    background-image: url('../images/social_media/svg/008-facebook.svg');
+    background-image: url('/images/social_media/svg/008-facebook.svg');
 }
 
 .footer
