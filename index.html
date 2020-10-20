@@ -7,46 +7,66 @@
     </head>
     <body>
         <header class="header">
-            <nav class="menu">
-                <ol>
-                    <li>
-                        <a class="anchor" href="#portafolio">Portafolio</a>
-                    </li>   
-                    <li>
-                        <a class="anchor" href="#contacto">Contacto</a>
-                    </li>
-                </ol>
-            </nav>
+            <div class="container">
+                <nav class="menu">
+                    <ol>
+                        <li>
+                            <a class="anchor" href="#portafolio">Portafolio</a>
+                        </li>   
+                        <li>
+                            <a class="anchor" href="#contacto">Contacto</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
         </header>
         <section class="hero">
             <div class="container">
                 <h1>Hola!<br>Soy <strong>Adrian Rodriguez</strong><br>y esta es<br>mi <strong>Página Web</strong></h1>
             </div>        
         </section>
-        <section id="portafolio">
-            <h2 class="portfolio_title">Portafolio</h2>
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                <h2 class="portfolio_title">Portafolio</h2>
+            </div>
         </section>
-        <section class="portfolio">
-            <article class="project">
-                <div class="project_specs">
+        <section class="portfolio_content">
+            <div class="container">
+                <article class="project">
                     <h3 class="project_title">Mi Primer Fotomontaje</h3>
                     <p class="project_description">Este es el resultado de haberme aventurado en el mundo de la fotografía y el fotomontaje.<br/>Creo que me salió genial para ser la primera vez.</p>
-                </div>
-                <figure class="image_box">
-                    <img class="image" src="../PORTAFOLIO/images/foto_montaje1.jpg" alt="Proyecto Fotomontaje 1" width="500">
-                </figure>
-            </article>
+                    <figure class="image_box">
+                        <img class="image" src="../PORTAFOLIO/images/foto_montaje1.jpg" alt="Proyecto Fotomontaje 1" width="500">
+                    </figure>
+                </article>
+            </div>
         </section>
-        <section>
-            <h2 id="contacto" class="contact">Contacto</h2>
-            <form action="Excel" class="contact_form">
-                <label for="email_box" class="title_contactForm">¿Creamos algo juntos?</label>
-                <input type="text" placeholder="Déjame tu email" id="email_box">
-                <input type="button" value="Enviar">
-            </form>
+        <section class="contact">
+            <div class="container">
+                <div>
+                    <h2 id="contacto" class="contact_title">Contacto</h2>
+                    <form action="Excel" class="contact_form">
+                        <label for="email_box" class="title_contactForm">¿Creamos algo juntos?</label>
+                        <input type="text" placeholder="Déjame tu email" id="email_box">
+                        <button>Enviar</button>
+                    </form>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/AdrianRodB" class="social_link twitter"></a>
+                    <a href="https://www.instagram.com/adrian.rodriguezb" class="social_link instagram"></a>
+                    <a href="https://www.facebook.com/AdrianRodriguezBernales" class="social_link facebook"></a>
+                </div>
+            </div>
         </section>
         <footer class="footer">
-            <p>Hecho con mucho amor.💚<br>De mi para mi.</p>
+            <div class="container">
+                <div>
+                    <p>Hecho con mucho amor.💚<br>De mi para mi.</p>
+                </div>
+                <div>   
+                    <p>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik<br/></a>From <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a></p> 
+                </div>
+            </div>
         </footer>
     </body>
 </html>
