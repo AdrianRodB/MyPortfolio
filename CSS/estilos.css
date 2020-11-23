@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body
 {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -10,9 +13,9 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6
 {
-    font-family: "Fjalla One", "Roboto", Helvetica, sans-serif;
+    font-family: "Open Sans", "Roboto", Helvetica, sans-serif;
     line-height: 1;
 }
 
@@ -89,7 +92,7 @@ h2
 
 .project_title
 {
-    width: 190px;
+    width: 218px;
     margin: 0 auto;
 }
 
