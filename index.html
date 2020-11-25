@@ -6,8 +6,10 @@
         <meta name="robots" content="index, follow">
         <title>Adrian Rodriguez</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./CSS/phone.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/mobile.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="header">
@@ -24,50 +26,65 @@
                 </nav>
             </div>
         </header>
-        <section class="hero">
-            <div class="container">
-                <h1>Hola!<br>Soy <strong>Adrian Rodriguez</strong><br>y esta es<br>mi <strong>Página Web</strong></h1>
-            </div>        
-        </section>
-        <section id="portafolio" class="portfolio">
-            <div class="container">
-                <h2 class="portfolio_title">Portafolio</h2>
-            </div>
-        </section>
-        <section class="portfolio_content">
-            <div class="container">
-                <article class="project">
-                    <h3 class="project_title">Mi Primer Fotomontaje</h3>
-                    <p class="project_description">Este es el resultado de haberme aventurado en el mundo de la fotografía y el fotomontaje.<br/>Creo que me salió genial para ser la primera vez.</p>
-                    <figure class="image_box">
-                        <img class="image" src="./images/foto_montaje1.jpg" alt="Proyecto Fotomontaje 1" width="500">
-                    </figure>
-                </article>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h2 id="contacto" class="contact_title">Contacto</h2>
-                <div class="contact">
-                    <form action="Excel" class="contact_form">
-                        <label for="email_box" class="title_contactForm">¿Creamos algo juntos?</label>
-                        <input type="text" placeholder="Déjame tu email" id="email_box">
-                        <button>Enviar</button>
-                    </form>
-                    <div class="social">
-                        <a href="https://twitter.com/AdrianRodB" class="social_link twitter"></a>
-                        <a href="https://www.instagram.com/adrian.rodriguezb" class="social_link instagram"></a>
-                        <a href="https://www.facebook.com/AdrianRodriguezBernales" class="social_link facebook"></a>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <h1>¡Hola!<br>Soy <strong>Adrian Rodriguez</strong><br>y esta es mi <strong>Página Web</strong></h1>
+                </div>        
+            </section>
+            <section id="portafolio" class="portfolio">
+                <div class="container">
+                    <div class="portfolio_title">
+                        <h2>Portafolio</h2>
+                    </div>               
+                    <div class="portfolio_content">
+                        <article class="project">
+                            <figure class="image_box">
+                                <picture>
+                                    <img class="image" src="./images/foto_montaje1.jpg" alt="Proyecto Fotomontaje 1">
+                                </picture>
+                            </figure>
+                            <div class="project_title">
+                                <h3>Mi Primer Fotomontaje</h3>
+                            </div>
+                            <div class="project_description">                        
+                                <p>Este es el resultado de haberme aventurado en el mundo de la fotografía y el fotomontaje.<br/>Creo que me salió genial para ser la primera vez.</p>
+                            </div>
+                        </article>
                     </div>
-                </div>
-            </div>
-        </section>
+                </div>    
+            </section>
+            <section id="contacto" class="contact">
+                <div class="container">
+                    <div class="contact_title">                        
+                        <h2>Contacto</h2>
+                    </div>
+                    <div class="contact_elements">
+                        <form action="Excel" class="contact_form">
+                            <label for="email_box">
+                                <span>¿Creámos algo Juntos?</span>
+                                <input type="text" placeholder="Déjame tu email" id="email_box">
+                            </label>
+                            <input type="submit" value="Enviar">
+                        </form>
+                        <div class="follow">
+                            <p>Sígueme 😉</p>
+                        </div>
+                        <div class="social">
+                            <a href="https://twitter.com/AdrianRodB" class="social_link twitter"></a>
+                            <a href="https://www.instagram.com/adrian.rodb/" class="social_link instagram"></a>
+                            <a href="https://www.facebook.com/AdrianRodriguezBernales" class="social_link facebook"></a>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+        </main>
         <footer class="footer">
             <div class="container">
-                <div>
+                <div class="dedication">
                     <p>Hecho con mucho amor.💚<br>De mi para mi.</p>
                 </div>
-                <div>   
+                <div class="credits">   
                     <p>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik<br/></a>From <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a></p> 
                 </div>
             </div>
