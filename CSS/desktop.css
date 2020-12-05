@@ -1,0 +1,55 @@
+.anchor{
+    font-size: 2.5rem;
+}
+.hero h1{
+    font-size: 11rem;
+}
+.portfolio .container .portfolio_title{
+    font-size: 3.8rem;
+}
+.portfolio_content .project{
+    width: 39vw;
+    margin: 0 auto;
+}
+.portfolio_content .project .project_title{
+    width: 26vw;
+    height: 7vh;
+    font-size: 1.9rem;
+}
+.portfolio_content .project .project_description{
+    width: 35vw;
+    font-size: 1.6rem;
+}
+.contact .container .contact_title{
+    font-size: 3.8rem
+}
+.contact_elements .contact_form label span{
+    font-size: 1.8rem;
+}
+.contact_elements .contact_form label input{
+    width: 20vw;
+    font-size: 1.6rem;
+}
+.contact_elements .contact_form > input{
+    width: 8vw;
+    margin-bottom: 4rem;
+}
+.contact_elements .follow{
+    font-size: 1.8rem;
+}
+.social{
+    width: 18vw;
+}
+.social .social_link{
+    width: 5rem;
+    height: 5rem;
+    background-size: 5rem 5rem;
+}
+.footer .dedication{
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+}
+.footer .credits{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}

@@ -1,0 +1,12 @@
+.header .container nav ol li{
+    margin: 0 0.8rem;
+}
+.anchor{
+    font-size: 2rem;
+}
+.contact_elements .contact_form label input{
+    width: 35vw;
+}
+.social{
+    width: 30vw;
+}
