@@ -163,6 +163,9 @@ h6{
     border-color: var(--secundary-color);
     background-color: var(--secundary-color);
 }
+.contact_elements .contact_form > input:hover{
+    background-color: var(--third-color);
+}
 .contact_elements .follow{
     font-size: 1.3rem;
     text-align: center;
